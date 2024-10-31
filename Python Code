@@ -6,3 +6,4 @@
 import time
 
 print("Welcome to XYZ Bank")
+print("\nPlease insert your card")
