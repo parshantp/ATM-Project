@@ -10,4 +10,4 @@ print("\nPlease insert your card")
 time.sleep(5)
 
 passward = 1234
-
+amount = 20000
