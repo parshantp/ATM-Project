@@ -23,3 +23,6 @@ print("""
 
 time.sleep(3)
 option = int(input("Choice option :-"))
+time.sleep(3)
+
+while True:
