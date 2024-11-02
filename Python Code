@@ -13,3 +13,10 @@ passward = 1234
 amount = 20000
 chance = 3
 print("-",*50)
+
+print("""
+      1 = Withdraw cash
+      2 = Balance inquary
+      3 = Credit Balance
+      4 = Exit
+      )
