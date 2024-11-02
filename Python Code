@@ -20,3 +20,6 @@ print("""
       3 = Credit Balance
       4 = Exit
       """)
+
+time.sleep(3)
+option = int(input("Choice option :-"))
