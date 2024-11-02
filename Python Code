@@ -28,3 +28,5 @@ time.sleep(3)
 while True:
       if option == 1:
             while chance > 0:
+                  pas = int(input("\nEnter your four digit pin :-"))
+                  time.sleep(3)
