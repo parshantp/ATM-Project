@@ -26,3 +26,5 @@ option = int(input("Choice option :-"))
 time.sleep(3)
 
 while True:
+      if option == 1:
+            while chance > 0:
