@@ -12,3 +12,4 @@ time.sleep(5)
 passward = 1234
 amount = 20000
 chance = 3
+print("-",*50)
