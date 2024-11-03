@@ -39,4 +39,7 @@ while True:
                               print("\nPlease collect your card")
                               time.sleep(3)
                               print("\nPlease collect your cash.")
+                              time.sleep(3)
+                              amount = amount - am
+                              print
                               
