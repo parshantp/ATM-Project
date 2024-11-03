@@ -35,4 +35,4 @@ while True:
                         time.sleep(3)
                         if amount >= am:
                               print("\nPlease wait your transaction is processing...")
-                              
+                              time.sleep(3)
