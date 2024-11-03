@@ -32,3 +32,7 @@ while True:
                   time.sleep(3)
                   if password == pas:
                         am = int(input("\nEnter Amount :-"))
+                        time.sleep(3)
+                        if amount >= am:
+                              print("\nPlease wait your transaction is processing...")
+                              
