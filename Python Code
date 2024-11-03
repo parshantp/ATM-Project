@@ -38,4 +38,5 @@ while True:
                               time.sleep(3)
                               print("\nPlease collect your card")
                               time.sleep(3)
-                              print("")
+                              print("\nPlease collect your cash.")
+                              
