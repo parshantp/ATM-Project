@@ -36,3 +36,5 @@ while True:
                         if amount >= am:
                               print("\nPlease wait your transaction is processing...")
                               time.sleep(3)
+                              print("\nPlease collect your card")
+                              
