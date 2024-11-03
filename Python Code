@@ -37,4 +37,5 @@ while True:
                               print("\nPlease wait your transaction is processing...")
                               time.sleep(3)
                               print("\nPlease collect your card")
-                              
+                              time.sleep(3)
+                              print("")
