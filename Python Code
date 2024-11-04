@@ -45,4 +45,6 @@ while True:
                               time.sleep(3)
                               print("\nThnak You for using XYZ Bank.")
                               break
+                        else:
+                              print("You do not have sufficient balance")
 
