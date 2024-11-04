@@ -53,6 +53,8 @@ while True:
                         print("Incorrect Pin")
                         print(f"unsuccessfull attempt\n{chance} attempt(s) left")
                         if chance == 0:
+                              time.sleep(3)
+                              print()
 
 
 
