@@ -47,4 +47,5 @@ while True:
                               break
                         else:
                               print("You do not have sufficient balance")
+                              break
 
