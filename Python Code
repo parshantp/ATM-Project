@@ -43,3 +43,6 @@ while True:
                               amount = amount - am
                               print("\nYour left balance is :-",amount)
                               time.sleep(3)
+                              print("\nThnak You for using XYZ Bank.")
+                              break
+
