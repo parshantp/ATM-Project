@@ -48,4 +48,6 @@ while True:
                         else:
                               print("You do not have sufficient balance")
                               break
+                  else:
+                        chance-=1
 
