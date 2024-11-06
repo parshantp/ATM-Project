@@ -64,6 +64,8 @@ while True:
                   if password == pas:
                         print("Available amount\n",amount)
                         time.sleep(3)
+                        print("\nThank You for visiting XYZ Bank.")
+                        break
 
                         
 
