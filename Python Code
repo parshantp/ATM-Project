@@ -59,7 +59,10 @@ while True:
 
       elif option == 2:
             while chance > 0:
-                  p
+                  pas = int(input("\nEnter your four digit pin :-"))
+                  time.sleep(3)
+                  if password == pas:
+                        
 
 
 
