@@ -73,6 +73,6 @@ while True:
                         print(f"unsuccessfull attempt\n{chance} attempt(s) remain")
                         if chance == 0:
                               time.sleep(3)
-
+                              print("Your account is freezed\n")
 
 
