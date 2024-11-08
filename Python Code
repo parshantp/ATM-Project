@@ -66,6 +66,9 @@ while True:
                         time.sleep(3)
                         print("\nThank You for visiting XYZ Bank.")
                         break
+                  else:
+                        chance-=1
+
 
                         
 
