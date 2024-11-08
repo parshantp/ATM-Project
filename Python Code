@@ -69,7 +69,7 @@ while True:
                   else:
                         chance-=1
                         print("Incorrect Pin")
-
+                        time.sleep(3)
                         
 
 
