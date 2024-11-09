@@ -81,6 +81,7 @@ while True:
                   pas = int(input("Enter your four digit pin"))
                   time.sleep(3)
                   if password == pas:
-                        am = int(input(""))
+                        am = int(input("\nEnter amount you want to credit"))
+                        time.sleep(3)
 
 
