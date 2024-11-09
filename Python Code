@@ -83,5 +83,7 @@ while True:
                   if password == pas:
                         am = int(input("\nEnter amount you want to credit"))
                         time.sleep(3)
+                        print("\nPlease put the cash in ATM machine")
+                        time.sleep(3)
 
 
