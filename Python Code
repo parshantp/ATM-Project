@@ -80,6 +80,7 @@ while True:
             while chance > 0:
                   pas = int(input("Enter your four digit pin"))
                   time.sleep(3)
-                  if pa
+                  if password == pas:
+                        am = int(input(""))
 
 
