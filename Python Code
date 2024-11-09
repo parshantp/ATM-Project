@@ -86,5 +86,6 @@ while True:
                         print("\nPlease put the cash in ATM machine")
                         time.sleep(3)
                         print("\nPlease wait ypur amount is crediting.")
+                        time.sleep(3)
 
 
