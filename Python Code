@@ -94,5 +94,6 @@ while True:
                   else:
                         chance-=1
                         print("Incorrect Pin")
+                        print(f"unsuccessfull attempt\n{chance} attempt(s) remain")
                         
 
