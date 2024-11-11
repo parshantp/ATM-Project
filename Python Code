@@ -88,6 +88,7 @@ while True:
                         print("\nPlease wait ypur amount is crediting.")
                         time.sleep(3)
                         amount = amount + am
-                        print("")
+                        print("Your amount is creditied.\nNow your total balance is",amount)
+                        print("Thank you for visiting XYZ Bank.")
                         
 
