@@ -91,5 +91,7 @@ while True:
                         print("Your amount is creditied.\nNow your total balance is",amount)
                         print("Thank you for visiting XYZ Bank.")
                         break
+                  else:
+                        chance-=1
                         
 
