@@ -98,5 +98,5 @@ while True:
                         if chance == 0:
                               time.sleep(3)
                               print("Your account is freezed\nPlease visit your home branch")
-                        
+                              break
 
