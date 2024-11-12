@@ -99,4 +99,5 @@ while True:
                               time.sleep(3)
                               print("Your account is freezed\nPlease visit your home branch")
                               break
+      elif option == 4:
 
