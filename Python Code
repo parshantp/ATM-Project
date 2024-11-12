@@ -100,4 +100,5 @@ while True:
                               print("Your account is freezed\nPlease visit your home branch")
                               break
       elif option == 4:
+            print("Thank you for visiting XYZ Bank")
 
