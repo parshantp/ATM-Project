@@ -101,4 +101,5 @@ while True:
                               break
       elif option == 4:
             print("Thank you for visiting XYZ Bank")
+            break
 
