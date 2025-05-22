@@ -1,0 +1,100 @@
+# ATM PROJECT
+
+import time
+
+print("Welcome to XYZ Bank")
+print("\n Please insert your card")
+time.sleep(5)
+
+password = 1234
+amount = 20000
+chance = 3
+print("-"*50)
+
+print("""
+      1 = Withdraw Cash
+      2 = Balance inquary
+      3 = Credit Balance
+      4 = Exit""")
+
+time.sleep(3)
+option = int(input("Choice option :-"))
+time.sleep(3)
+
+while True:
+    if option == 1:
+        while chance > 0:
+            pas = int(input("\nEnter your four digit pin :-"))
+            time.sleep(3)
+            if password == pas:
+                am = int(input("\nEnter amount :-"))
+                time.sleep(3)
+                if amount >= am:
+                    print("\nPlease wait your transaction is processing...")
+                    time.sleep(3)
+                    print("\nPlease collect your card")
+                    time.sleep(3)
+                    print("\nPlease collect your cash.")
+                    time.sleep(2)
+                    amount = amount - am
+                    print("\nYour left balance is :-",amount)
+                    time.sleep(3)
+                    print("\nThank You for using XYZ Bank.")
+                    break
+                else:
+                    print("You do not have sufficient balance")
+                    break
+            else:
+                chance-=1
+                print("Incorrect Pin")
+                print(f"unsuccessfull attempt\n{chance} attempt(s) remain",)
+                if chance == 0:
+                    time.sleep(3)
+                    print("Your account is freezed\nPlease visit your home branch")
+                    break
+    elif option == 2:
+        while chance > 0:
+            pas = int(input("\nEnter your four digit pin :-"))
+            time.sleep(3)
+            if password == pas:
+                print("Available Balance\n",amount)
+                time.sleep(3)
+                print("\nThank You for visiting XYZ Bank")
+                break
+            else:
+                chance-=1
+                print("Incorrect Pin")
+                print(f"unsuccessfull attempt\n{chance} attempt(s) remain",)
+                if chance == 0:
+                    time.sleep(3)
+                    print("Your account is freezed\nPlease visit your home branch")
+                    break
+    elif option == 3:
+        while chance > 0:
+            pas = int(input("Enter your four digit pin"))
+            time.sleep(3)
+            if password == pas:
+                am = int(input("\nEnter amount you want to credit"))
+                time.sleep(3)
+                print("\nPlease put the cash in ATM Machine.")
+                time.sleep(3)
+                print("\nPlease wait your amount is crediting.")
+                time.sleep(3)
+                amount = amount + am
+                print("Your amount is credited.\nNow your total balance is :-",amount)
+                print("Thank You for visiting XYZ Bank.")
+                break
+            else:
+                chance-=1
+                print("Incorrect Pin")
+                print(f"unsuccessfull attempt\n{chance} attempt(s) remain",)
+                if chance == 0:
+                    time.sleep(3)
+                    print("Your account is freezed\nPlease visit your home branch")
+                    break
+    elif option == 4:
+        print("Thank You for visiting XYZ Bank")
+        break
+    else:
+        print("Invalid option\nPlease choose a valid option")
+
